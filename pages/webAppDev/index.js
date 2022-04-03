@@ -1,4 +1,5 @@
 // CSS
+import Link from "next/link";
 import styles from "./webAppDev.module.css";
 
 export default function WebAppDev() {
@@ -57,11 +58,11 @@ export default function WebAppDev() {
           ]
         </li>
         <li>
-          🏋️ Gym schedule app [<strong>HTML, CSS, PHP</strong>] - This application intends to manage the schedule of a small gym operation. [<a href="/posts/gym-schedule-app">🔗preview</a>]
+          🏋️ Gym schedule app [<strong>HTML, CSS, PHP</strong>] - This application intends to manage the schedule of a small gym operation. [<Link href="/posts/gym-schedule-app">🔗preview</Link>]
         </li>
         <li>
           🏢 Building technology business website [<strong>HTML, CSS</strong>] - A static website of a local business that deals with building technologies. [
-          <a href="/posts/building-technology-business-website">🔗preview</a>]
+          <Link href="/posts/building-technology-business-website">🔗preview</Link>]
         </li>
       </ul>
       <h2>freecodecamp.org certificates</h2>
