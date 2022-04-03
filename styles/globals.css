@@ -1,16 +1,160 @@
+@font-face {
+  font-family: Quicksand-Bold;
+  src: url("../fonts/Quicksand-Bold.ttf");
+}
+@font-face {
+  font-family: Quicksand-Light;
+  src: url("../fonts/Quicksand-Light.ttf");
+}
+@font-face {
+  font-family: Quicksand-Medium;
+  src: url("../fonts/Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: Quicksand-Regular;
+  src: url("../fonts/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: Quicksand-SemiBold;
+  src: url("../fonts/Quicksand-SemiBold.ttf");
+}
+@font-face {
+  font-family: TitilliumWeb-Bold;
+  src: url("../fonts/TitilliumWeb-Bold.ttf");
+}
+@font-face {
+  font-family: TitilliumWeb-Light;
+  src: url("../fonts/TitilliumWeb-Light.ttf");
+}
+@font-face {
+  font-family: TitilliumWeb-Regular;
+  src: url("../fonts/TitilliumWeb-Regular.ttf");
+}
+@font-face {
+  font-family: TitilliumWeb-SemiBold;
+  src: url("../fonts/TitilliumWeb-SemiBold.ttf");
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-family: Quicksand-Regular;
+  /* font-family: TitilliumWeb-Regular; */
+  font-weight: 600;
+  background-color: #000000;
+  color: #bdbcbc;
+  overflow: hidden; /* Hide scrollbars */
 }
 
+strong {
+  font-family: Quicksand-Bold;
+  /* font-family: TitilliumWeb-Bold; */
+}
 a {
-  color: inherit;
   text-decoration: none;
+  color: var(--colorPurple);
+}
+h1 {
+  color: var(--colorGreen);
+  font-size: 1.3em;
+}
+h2 {
+  color: var(--colorBlue);
+  font-size: 1.2em;
 }
 
-* {
-  box-sizing: border-box;
+li {
+  margin-bottom: 5px;
+}
+/* ----------- */
+/* -img ----- */
+/* ----------- */
+#img-container {
+  text-align: center;
+}
+
+#img-container img {
+  border-radius: 10px;
+  width: 90%;
+}
+
+/* SIZES */
+/* header 1.4em */
+/* navItem 1.3em */
+/* h1 1.2em */
+/* h2 1.1em */
+/* p  1em */
+/* footer 0.9em */
+
+/* SIZES */
+/* HD 720p 1280x720 */
+/* FHD 1080p 1920x1080 */
+/* QHD 1440p 2560x1440 */
+/* UHD 4K 3840x2160 */
+
+:root {
+  --colorGrey: #a4b3af;
+  --colorRed: #ff6c64;
+  --colorRedFocus: #f59893;
+  --colorBlue: #51afef;
+  --colorGreen: #80aa61;
+  --colorPurple: #b48bee;
+}
+
+@media (min-width: 600px) {
+  html,
+  body {
+    font-size: 13pt;
+  }
+}
+@media (min-width: 900px) {
+  html,
+  body {
+    font-size: 14pt;
+  }
+}
+/* larger than HD */
+@media (min-width: 1200px) {
+  html,
+  body {
+    font-size: 15pt;
+  }
+}
+/* larger than FHD */
+@media (min-width: 1900px) {
+  html,
+  body {
+    font-size: 18pt;
+  }
+}
+/* larger than QHD */
+@media (min-width: 2500px) {
+  html,
+  body {
+    font-size: 26pt;
+  }
+}
+/* larger than 4K */
+@media (min-width: 3800px) {
+  html,
+  body {
+    font-size: 34pt;
+  }
+}
+
+.animate {
+  animation-duration: 0.15s;
+  animation-name: animate-fade;
+  animation-delay: 0.15s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes animate-fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
