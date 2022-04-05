@@ -20,20 +20,20 @@ There are 5 main pages and each has a list of actions that can be performed. The
 This project is built using Bootstrap (HTML, CSS) and PHP.
 
 <div id="img-container">
-  <img src="../gym-schedule-app/1.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/1.jpg" />
 </div>
 <div id="img-container">
-  <img src="../gym-schedule-app/2.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/2.jpg" />
 </div>
 <div id="img-container">
-  <img src="../gym-schedule-app/3.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/3.jpg" />
 </div>
 <div id="img-container">
-  <img src="../gym-schedule-app/4.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/4.jpg" />
 </div>
 <div id="img-container">
-  <img src="../gym-schedule-app/5.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/5.jpg" />
 </div>
 <div id="img-container">
-  <img src="../gym-schedule-app/6.jpg" />
+  <img src="../webAppDevelopment/gym-schedule-app/6.jpg" />
 </div>

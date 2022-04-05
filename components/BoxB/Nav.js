@@ -33,8 +33,8 @@ function NavList() {
       <div className={router.pathname === "/automatedTrading" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`}>
         <Link href="/automatedTrading">automated trading</Link>
       </div>
-      <div className={router.pathname === "/webAppDev" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`}>
-        <Link href="/webAppDev">web/app development</Link>
+      <div className={router.pathname === "/webAppDevelopment" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`}>
+        <Link href="/webAppDevelopment">web/app development</Link>
       </div>
     </div>
   );

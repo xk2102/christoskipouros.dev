@@ -1,11 +1,11 @@
 // CSS
 import Link from "next/link";
-import styles from "./webAppDev.module.css";
+import styles from "./webAppDevelopment.module.css";
 
-export default function WebAppDev() {
+export default function webAppDevelopment() {
   return (
-    <div className={styles.webAppDev}>
-      <h1>webAppDev</h1>
+    <div className={`animate ${styles.webAppDevelopment}`}>
+      <h1>web/app development</h1>
       <p>
         HTML, CSS | JavaScript, ES6 | TypeScript <br />
         React, React Native, Next.js | Node.js, Express, mongoDB, GraphQL, Firebase | Jest, Cypress | Electron

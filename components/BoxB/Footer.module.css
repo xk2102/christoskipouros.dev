@@ -10,6 +10,8 @@
   color: var(--colorRed);
   /* FONTS */
   font-size: 0.7em;
+  /* MARGIN, PADDING */
+  padding: 10px;
 }
 
 /* larger than HD */

@@ -60,15 +60,15 @@ function BoxC() {
   const { setShowBoxC } = useContext(WindowContext);
   const router = useRouter();
   return (
-    <div className={`${styles.boxC}`}>
+    <div className={`animate ${styles.boxC}`}>
       <div className={router.pathname === "/" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
         <Link href="/">info</Link>
       </div>
       <div className={router.pathname === "/automatedTrading" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
         <Link href="/automatedTrading">automated trading</Link>
       </div>
-      <div className={router.pathname === "/webAppDev" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
-        <Link href="/webAppDev">web/app development</Link>
+      <div className={router.pathname === "/webAppDevelopment" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
+        <Link href="/webAppDevelopment">web/app development</Link>
       </div>
     </div>
   );

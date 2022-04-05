@@ -68,11 +68,22 @@
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 10px;
+  /* COLOR */
+  color: var(--colorRed);
+}
+
+.boxC > .navItem:hover,
+.boxC > .navItem.active {
+  /* COLOR */
+  color: var(--colorRedFocus);
+}
+.navItem.active {
+  font-family: Quicksand-SemiBold;
 }
 
 .boxC > .navItem > a {
   /* COLOR */
-  color: var(--colorRed);
+  color: inherit;
 }
 
 /* larger than HD */

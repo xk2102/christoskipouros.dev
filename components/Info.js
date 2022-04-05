@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Info() {
   return (
-    <div className={styles.info}>
+    <div className={`animate ${styles.info}`}>
       <p>
         Hello <span className={styles.earthEmoji}>🌎</span>!
       </p>
@@ -23,7 +23,7 @@ export default function Info() {
       <h1>web/app development</h1>
       <p>
         A simple and fully responsive website for your online presence (like this one) or a more complex application (local or web based) to perform specific tasks.<br></br>[
-        <Link href="/webAppDev">🔗 overview</Link>]
+        <Link href="/webAppDevelopment">🔗 overview</Link>]
       </p>
       <p>
         Please feel free to{" "}

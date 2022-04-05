@@ -29,11 +29,22 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  /* COLOR */
+  color: var(--colorRed);
+}
+
+.navItem:hover,
+.navItem.active {
+  /* COLOR */
+  color: var(--colorRedFocus);
+}
+.navItem.active {
+  font-family: Quicksand-SemiBold;
 }
 
 .navItem > a {
   /* COLOR */
-  color: var(--colorRed);
+  color: inherit;
   /* MARGIN, PADDING */
   padding: 10px;
   text-align: center;

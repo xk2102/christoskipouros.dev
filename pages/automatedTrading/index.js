@@ -4,8 +4,8 @@ import styles from "./automatedTrading.module.css";
 
 export default function automatedTrading() {
   return (
-    <div className={styles.automatedTrading}>
-      <h1>automatedTrading</h1>
+    <div className={`animate ${styles.automatedTrading}`}>
+      <h1>automated trading</h1>
       <p>An automated trading strategy should be as simple as possible.</p>
       <p>
         It is a set of rules that needs to occur multiple times and be profitable. So it is clear that a simple set of rules will have a higher probability of happening again in the future than a more
@@ -19,11 +19,11 @@ export default function automatedTrading() {
         Such stages are direction and entry-stop-exit, money management and market selection, commissions and slippage, execution-feedback and adjustments for optimization but not over-optimization.
       </p>
       <p>
-        <a href="../automated-trading-overview/C_SimpleFX%20SUITE%202020-11-09_14_43_59.pdf" target="_blank" rel="noreferrer">
+        <a href="../automatedTrading/C_SimpleFX%20SUITE%202020-11-09_14_43_59.pdf" target="_blank" rel="noreferrer">
           🔗Here
         </a>
         {` (and `}
-        <a href="../automated-trading-overview/C_SimpleFX SUITE 2020-11-09_15_25_08.pdf" target="_blank" rel="noreferrer">
+        <a href="../automatedTrading/C_SimpleFX SUITE 2020-11-09_15_25_08.pdf" target="_blank" rel="noreferrer">
           🔗here
         </a>
         ) is an example of what is described above.
