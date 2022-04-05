@@ -25,13 +25,6 @@ export default function Info() {
         A simple and fully responsive website for your online presence (like this one) or a more complex application (local or web based) to perform specific tasks.<br></br>[
         <Link href="/webAppDevelopment">🔗 overview</Link>]
       </p>
-      <p>
-        Please feel free to{" "}
-        <Link href="mailto: christoskipouros@outlook.com" target="_blank" rel="noreferrer">
-          🔗contact
-        </Link>{" "}
-        me. I am always happy to talk anything related to work or just talk snowboarding, mario kart, pointy guitars or the USS Enterprise 🛸.
-      </p>
     </div>
   );
 }

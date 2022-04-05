@@ -36,6 +36,9 @@ function NavList() {
       <div className={router.pathname === "/webAppDevelopment" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`}>
         <Link href="/webAppDevelopment">web/app development</Link>
       </div>
+      <div className={router.pathname === "/about" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`}>
+        <Link href="/about">who?</Link>
+      </div>
     </div>
   );
 }

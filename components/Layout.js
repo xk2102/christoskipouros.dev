@@ -70,6 +70,9 @@ function BoxC() {
       <div className={router.pathname === "/webAppDevelopment" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
         <Link href="/webAppDevelopment">web/app development</Link>
       </div>
+      <div className={router.pathname === "/about" ? `${styles.navItem} ${styles.active}` : `${styles.navItem}`} onClick={() => setShowBoxC(false)}>
+        <Link href="/about">who?</Link>
+      </div>
     </div>
   );
 }
