@@ -15,7 +15,7 @@ const post = ({ frontmatter: { title, date, cover_image }, slug, content }) => {
   const cleanPostContent = DOMPurify.sanitize(postContent, { ADD_ATTR: ["target"] });
 
   return (
-    <div className={styles.post}>
+    <div className={`animate ${styles.post}`}>
       <ProgressBar></ProgressBar>
       <div dangerouslySetInnerHTML={{ __html: cleanPostContent }}></div>
     </div>
