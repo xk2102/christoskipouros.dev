@@ -22,7 +22,7 @@ export default function about() {
           </p>
           <p>
             I am currently working with
-            <a href="https://saeki.ch/" target="_blank" rel="noreferrer" style={{ color: "yellow" }}>
+            <a href="https://saeki.ch/" target="_blank" rel="noreferrer" style={{ color: "#f1f1bc" }}>
               {` Saeki Robotics AG `}
             </a>
             - a start-up company based in Zürich in the field of robotic digital manufacturing.{" "}
