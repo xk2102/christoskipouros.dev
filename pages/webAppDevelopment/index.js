@@ -29,8 +29,8 @@ export default function webAppDevelopment() {
           ]
         </li>
         <li>
-          📝 RhoamTasks [<strong>React, TypeScript</strong>] - An offline desktop task planner. [
-          <a href="https://github.com/xk2102/rhoam-tasks" target="_blank" rel="noreferrer">
+          📝 RhoamTasks [<strong>React, TypeScript, Electron</strong>] - An offline desktop task planner. [
+          <a href="https://github.com/xk2102/rhoam-tasks-electron" target="_blank" rel="noreferrer">
             🔗github
           </a>
           {`, `}
@@ -47,7 +47,7 @@ export default function webAppDevelopment() {
           ]
         </li>
         <li>
-          📈 RhoamFX [<strong>React, Express, mongoDB</strong>] - This is an app for traders. A trader can save his trades and keep track of his portfolios performance. [
+          📈 RhoamFX [<strong>React, Express, mongoDB, Cypress</strong>] - This is an app for traders. A trader can save his trades and keep track of his portfolios performance. [
           <a href="https://github.com/xk2102/rhoam-fx-web" target="_blank" rel="noreferrer">
             🔗github
           </a>
