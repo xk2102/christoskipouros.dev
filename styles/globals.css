@@ -104,41 +104,47 @@ li {
 
 @media (min-width: 600px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 13pt;
   }
 }
 @media (min-width: 900px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 14pt;
   }
 }
 /* larger than HD */
 @media (min-width: 1200px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 15pt;
   }
 }
 /* larger than FHD */
 @media (min-width: 1900px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 18pt;
   }
 }
 /* larger than QHD */
 @media (min-width: 2500px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 26pt;
   }
 }
 /* larger than 4K */
 @media (min-width: 3800px) {
   html,
-  body {
+  body,
+  #projectRightTop {
     font-size: 34pt;
   }
 }
